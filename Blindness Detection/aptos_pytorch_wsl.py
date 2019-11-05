@@ -1,3 +1,11 @@
+lr = 2e-5
+img_size = 224
+batch_size = 32
+n_epochs = 10
+n_freeze = 1
+classes = (0, 1, 2, 3, 4)
+coef = [0.5, 1.5, 2.5, 3.5]
+
 
 import torch
 import os
